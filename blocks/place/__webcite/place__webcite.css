@@ -1,0 +1,18 @@
+.place__webcite{
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media screen and (max-width:768px) {
+	.place__webcite{
+        max-width: 352px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.place__header{
+        max-width: 288px;
+	}
+}

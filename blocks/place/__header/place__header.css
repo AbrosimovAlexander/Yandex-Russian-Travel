@@ -1,0 +1,26 @@
+.place__header{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+@media screen and (max-width:1024px) {
+	.place__header{
+        gap: 32px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.place__header{
+        gap: 28px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.place__header{
+        max-width: 288px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+	}
+}
