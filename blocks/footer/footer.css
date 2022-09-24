@@ -2,28 +2,30 @@
     margin-top: 92px;
     margin-bottom: 24px;
     display: flex;
-    min-width: 1184px;
+    width: 92.5%;
     justify-content: space-between;
     align-items: flex-start;
+    border: 1px solid red;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width:1024px) {
 	.footer{
-        min-width: 928px;
+	min-width: 90.625%;
 	}
 }
 
 @media screen and (max-width:768px) {
 	.footer{
-        min-width: 720px;
+	min-width: 93.75%;
         margin-top: 88px;
 	}
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px)  and (max-width:767px){
 	.footer{
         flex-direction: column;
-        min-width: 186px;
+        min-width: 90%;
         margin-top: 64px;
         gap: 48px;
 	}

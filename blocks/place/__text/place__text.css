@@ -1,5 +1,5 @@
 .place__text{
-    max-width: 484px;
+    width: 49.19%;
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -7,21 +7,21 @@
 
 @media screen and (max-width:1024px) {
 	.place__text{
-        max-width: 456px;
+        width: 49.14%;
         gap: 27px;
 	}
 }
 
 @media screen and (max-width:768px) {
 	.place__text{
-        max-width: 352px;
+        width: 48.89%;
         gap: 25px;
 	}
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) and (max-width:767px){
 	.place__text{
-        max-width: 288px;
+        width: 90%;
         gap: 25px;
 	}
 }
