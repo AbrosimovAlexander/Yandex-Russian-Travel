@@ -27,6 +27,7 @@
         flex-direction: column;
         min-width: 90%;
         padding-top: 64px;
+        padding-left: 16px;;
         gap: 48px;
 	}
 }
