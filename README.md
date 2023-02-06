@@ -19,4 +19,4 @@
     ссылки
 
 
-Ссылка проекта на GitHub: https://abrosimovalexander.github.io/Project-2.1-Russian-Travel/
+Ссылка проекта на GitHub: https://abrosimovalexander.github.io/russian-travel/
