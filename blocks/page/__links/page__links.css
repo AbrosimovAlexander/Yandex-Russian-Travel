@@ -2,6 +2,7 @@
     opacity: 1;
     transition: opacity 0.2s linear;
     text-decoration: none;
+    max-width: fit-content;
 }
 
 .page__links:hover{
