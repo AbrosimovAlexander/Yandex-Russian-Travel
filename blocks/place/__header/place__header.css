@@ -1,27 +1,27 @@
-.place__header{
-    width: 100%;
-    display: flex;
-    gap: 40px;
-    align-items: flex-end;
+.place__header {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
 }
 
-@media screen and (max-width:1024px) {
-	.place__header{
-        gap: 32px;
-	}
+@media screen and (max-width: 1024px) {
+  .place__header {
+    gap: 32px;
+  }
 }
 
-@media screen and (max-width:768px) {
-	.place__header{
-        gap: 28px;
-	}
+@media screen and (max-width: 768px) {
+  .place__header {
+    gap: 28px;
+  }
 }
 
-@media screen and (min-width:320px)  and (max-width:767px){
-	.place__header{
-        width: 90%;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
-	}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__header {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
 }

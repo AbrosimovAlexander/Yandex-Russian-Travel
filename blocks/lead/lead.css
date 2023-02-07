@@ -1,22 +1,22 @@
-.lead{
-    padding-top: 56px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 984px;
-    box-sizing: border-box;
+.lead {
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 984px;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width:1024px) {
-	.lead{
-        max-width: 90.625%;
-	}
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
 }
 
-@media screen and (max-width:768px) {
-	.lead{
-        max-width: 100%;
-    }
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+  }
 }
